@@ -207,21 +207,50 @@ const PerformanceGoalData: React.FC = () => {
                                     </div>
                                 </div>
                             </div>  */}
-  <Col xl={5} lg={12} className="d-flex">
-    <Card className="goal-card w-100">
+  <Col xl={14} lg={12} className="d-flex">
+    <Card className="goal-card w-100 goal_card_data">
       <div className="card-body">
         <div className="performance-card-header">
           <h4>
             Goal Data{" "}
             <img src="assets/img/icons/tooltip-icon.svg" alt="" />
           </h4>
-          <div className="goal-table-dropdown">
+              <div className="goal-table-dropdown">
+                <div className="dropdown">
+                  <a
+                    href="javascript:void(0);"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="true"
+                  >
+                    <i className="fa fa-ellipsis" />
+                  </a>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <a
+                        href="javascript:void(0);"
+                        className="dropdown-item"
+                      >
+                        Download report
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="javascript:void(0);"
+                        className="dropdown-item"
+                      >
+                        Download SVG
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          {/* <div className="goal-table-dropdown"> */}
           {/* <Dropdown menu={{menu}} placement="bottomRight">
               <a href="javascript:void(0);" className="ant-dropdown-link" onClick={e => e.preventDefault()}>
-                <DownOutlined /> ...
+                 ...
               </a>
             </Dropdown> */}
-          </div>
+          {/* </div> */}
         </div>
 
         <div className="goal-table">

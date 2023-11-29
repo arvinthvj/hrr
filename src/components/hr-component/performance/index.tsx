@@ -3,6 +3,7 @@ import PerformancePieChart from './performancePieChart'
 import PerformanceGoalData from './performanceGoalData'
 
 import { PersonalContext } from '../personalController';
+import { Col, Row } from 'antd';
 
 const PerformanceManagement = () => {
     const {
@@ -52,8 +53,8 @@ const PerformanceManagement = () => {
                         role="tabpanel"
                         aria-labelledby="performance-tab"
                     >
-                        <div className="row">
-                            <div className="col-xl-5 col-lg-12 d-flex">
+                        <Row gutter={22}>
+                        <Col xl={10} lg={12} className="d-flex">
                                 <div className="card goal-card w-100">
                                     <div className="card-body">
                                         {/* <div className="performance-card-header">
@@ -71,12 +72,12 @@ const PerformanceManagement = () => {
                                         />
                                     </div>
                                 </div>
-                            </div>
+                            </Col>
 
                             
                             
                             <PerformanceGoalData />
-                        </div>
+                        </Row>
                         <div className="row">
                             <div className="col-xl-5 col-lg-12">
                                 <div className="card goal-card w-100">

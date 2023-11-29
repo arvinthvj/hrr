@@ -45658,6 +45658,9 @@ table.empty-table-data tbody tr td {
   -ms-flex-pack: space-between;
   padding-bottom: 10px;
 }
+.goal_card_data{
+  padding: 12px;
+}
 .goal-card .performance-card-header h4 {
   display: -webkit-box;
   display: -ms-flexbox;
