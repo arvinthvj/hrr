@@ -1,0 +1,39 @@
+<svg width="100" height="41" viewBox="0 0 100 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2077_57615)">
+<rect width="19.2066" height="40.5474" fill="#FAFAFA"/>
+<rect x="0.5" y="0.5" width="18.2066" height="39.5474" rx="2.5" fill="#C1DAF0" stroke="#101A22"/>
+</g>
+<g clip-path="url(#clip1_2077_57615)">
+<rect width="19.2066" height="40.5474" transform="translate(20.1984)" fill="#FAFAFA"/>
+<rect x="20.6984" y="0.5" width="18.2066" height="39.5474" rx="2.5" fill="#C1DAF0" stroke="#101A22"/>
+</g>
+<g clip-path="url(#clip2_2077_57615)">
+<rect width="19.2066" height="40.5474" transform="translate(40.3967)" fill="#FAFAFA"/>
+<rect x="40.8967" y="0.5" width="18.2066" height="39.5474" rx="2.5" fill="#C1DAF0" stroke="#101A22"/>
+</g>
+<g clip-path="url(#clip3_2077_57615)">
+<rect width="19.2066" height="40.5474" transform="translate(60.5951)" fill="#FAFAFA"/>
+<rect x="61.0951" y="0.5" width="18.2066" height="39.5474" rx="2.5" fill="#C1DAF0" stroke="#101A22"/>
+</g>
+<g clip-path="url(#clip4_2077_57615)">
+<rect width="19.2066" height="40.5474" transform="translate(80.7935)" fill="#FAFAFA"/>
+<rect x="81.2935" y="0.5" width="18.2066" height="39.5474" rx="2.5" fill="#C1DAF0" stroke="#101A22"/>
+</g>
+<defs>
+<clipPath id="clip0_2077_57615">
+<rect width="19.2066" height="40.5474" fill="white"/>
+</clipPath>
+<clipPath id="clip1_2077_57615">
+<rect width="19.2066" height="40.5474" fill="white" transform="translate(20.1984)"/>
+</clipPath>
+<clipPath id="clip2_2077_57615">
+<rect width="19.2066" height="40.5474" fill="white" transform="translate(40.3967)"/>
+</clipPath>
+<clipPath id="clip3_2077_57615">
+<rect width="19.2066" height="40.5474" fill="white" transform="translate(60.5951)"/>
+</clipPath>
+<clipPath id="clip4_2077_57615">
+<rect width="19.2066" height="40.5474" fill="white" transform="translate(80.7935)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,151 @@
+.table{
+    &.table-striped{
+        thead{
+            th{
+                &:first-child{
+                    padding-left: 30px;
+                }
+                &:last-child{
+                    padding-right: 60px;
+                }
+            }
+        }
+        tbody{
+            tr{
+                &:nth-child(even){
+                   background: #fafafa;     
+                }
+                td{
+                    &:first-child{
+                        padding-left: 30px;
+                    }
+                    &:last-child{
+                        text-align: center;                        
+                    }
+                }
+            }
+        }
+    }
+    &.dataTable{
+        margin-bottom: 0px !important;
+    }
+    &.table-check{
+        th{
+            .check {
+                margin: 0;
+            }
+            .checkbox-set .checkmark {
+                background: transparent;
+                border: 2px solid #323232;
+            }
+        }
+        td{
+            .checkbox-set .checkmark {
+                position: absolute;
+                top: -15px;
+                right: 20px;
+                left: auto;
+                margin: 0;
+                background: transparent;
+                border: 2px solid #323232;
+            }
+        }
+    }
+    thead{
+        box-shadow: 0px 3px 6px 0px #DCDCDCCC;
+        padding:  0 30px;
+        &.theadadd{
+            box-shadow: none;
+            padding:  0 30px;
+            th{
+                padding: 20px;
+                border-bottom: 1px solid #D9D9D9;
+            }
+        }
+        th{
+            padding: 10px;
+            font-size: 18px;
+            font-weight: 400;
+            color: #000000;
+            white-space: nowrap;
+        }
+    }
+    tbody{
+        td{
+            padding: 8px;
+            color: #1B1B1B;
+            font-size: 14px;
+            font-weight: 400;
+            white-space: nowrap;
+            vertical-align:middle;
+            .table-link{
+                color: #0F62AB;
+                font-size: 18px;
+                font-weight: 500;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+            a{
+                color: #1B1B1B;
+                font-size: 18px;
+                &.btn-edit{
+                    background: #07004D;
+                    min-width: 55px;
+                    color: #fff;
+                    border-radius: 5px;
+                    font-size: 18px;
+                    font-weight: 900;
+                    padding: 0;
+                    border: 1px solid #07004D;
+                    &:hover{
+                        color: #07004D;
+                        background: transparent;
+                    }
+                }
+            }
+            &.link-set{
+                color: #0F62AB;
+            }
+            .name-groups{
+                display: flex;
+                align-items: center;
+                .work-name-img{
+                    margin-right:25px;
+                    @include respond-below(sm) {
+                        margin-right:10px;
+                    }
+                    img{
+                        width: 24px;
+                        height: 24px;
+                        border-radius: 50px;
+                        min-width: 24px;
+                        @include respond-below(sm) {
+                            min-width: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+table.dataTable > thead .sorting:after, table.dataTable > thead .sorting_asc:after, table.dataTable > thead .sorting_desc:after, table.dataTable > thead .sorting_asc_disabled:after, table.dataTable > thead .sorting_desc_disabled:after {
+    right: 0.5em;
+    content: "\f0d7";
+    font-family: "fontawesome";
+    top: 20px;
+    font-weight: 900;
+    font-size: 12px;
+}
+table.dataTable > thead .sorting:before, table.dataTable > thead .sorting_asc:before, table.dataTable > thead .sorting_desc:before, table.dataTable > thead .sorting_asc_disabled:before, table.dataTable > thead .sorting_desc_disabled:before {
+    right: 0.5em;
+    content: "\f0d8";
+    font-weight: 900;
+    font-family: "fontawesome";
+    top: 10px;
+    font-size: 12px;
+    font-weight: 900; 
+}
+.table-resposnive{
+    overflow: auto;
+}

@@ -1,0 +1,120 @@
+.main-wrapper {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+}
+.page-wrapper {
+    margin-left: 260px;
+    padding-top: 90px;
+    position: relative;
+    transition: all 0.4s ease;
+    background: $__light__white;
+    >.content {
+        padding: 20px;
+        padding-right: 30px;
+    }
+}
+.glyphicon.glyphicon-chevron-up {
+    position: relative;
+    &::after{
+        content:"\f106 ";
+        position: absolute;
+        font-weight: 900;
+        font-family: fontawesome;
+        left: 20px;
+    }
+}
+.glyphicon.glyphicon-chevron-down {
+    position: relative;
+    &::after{
+        content:"\f107 ";
+        position: absolute;
+        font-weight: 900;
+        font-family: fontawesome;
+        left: 20px;
+    }
+}
+.page-header {
+    background: $__white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    .breadcrumb {
+        background-color: transparent;
+        color: $__black;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 0;
+        padding: 0;
+        a {
+            color: #1B2559;
+        }
+    }
+    .breadcrumb-item+.breadcrumb-item {
+        &::before {
+            color: #1B2559;
+        }
+    }
+}
+.page-title {
+    font-size: 20px;
+    color: #1B2559;
+    margin-bottom: 5px;
+}
+.card {
+    @include margin-padding(0 0 25px, 15px);
+    border: 1px solid $__light__white;
+	box-shadow: $__shadow__3;
+    @include rounded(10px);
+    .card-header{
+        border-bottom:0;
+        background: $__transparent;
+        @include margin-padding(null, 20px);
+        .dropset {
+            color: $__gray__dark;
+            @include margin-padding(null, 0 10px);
+        }
+    }
+    .card-title {
+        font-size: $__font__size__18;
+        font-weight: $__bold;
+        color: $__secondarycolor;
+        border-bottom: 1px solid $__light__vampires;
+        @include margin-padding(0, 0 0 15px);
+        h4 {
+            font-size: $__font__size__20;
+        }
+        @include respond-below(custom991) {
+            font-size: $__font__size__14;
+        }
+    }
+    .card-body {
+        @include margin-padding(null, 10px 0px 0px);
+        @include respond-below(custom991) {
+            @include margin-padding(null, 15px);
+        }
+        .card-title{
+            font-size: $__font__size__18;
+            font-weight: $__bold;
+            color: $__secondarycolor;
+            @include margin-padding(0 0 10px, null);
+            @include respond-below(custom991) {
+                font-size: $__font__size__14;
+            }
+        }
+    }
+}
+@include respond-below(custom991) {
+    .page-wrapper {
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        padding-top: 60px;
+        >.content {
+            padding: 20px 20px 0;
+        }
+    }
+}

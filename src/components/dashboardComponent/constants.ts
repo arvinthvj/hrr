@@ -1,0 +1,88 @@
+export enum AssertIcon {
+  PARKING = 'Parking',
+  WORKSPACE = 'Workspace',
+  ROOM = 'Room',
+  OUT_OFFICE = 'out-of-icon',
+  IN_OFFICE = 'in-office',
+  REMOTELY = 'home-remotely',
+  HOLIDAY = 'holiday-icon',
+  SICKNESS = 'sickness-icon',
+  OTHER = 'other-icon',
+  CLIENT_SITE = 'client-site-icon'
+}
+export enum AssertNumber {
+  Id1 = 1,
+  Id2 = 2,
+  Id3 = 3,
+}
+export enum DayList {
+  Monday = 'Monday',
+  Sunday = 'Sunday',
+  Tuesday = 'Tuesday',
+  Wednesday = 'Wednesday',
+  Thursday = 'Thursday',
+  Friday = 'Friday',
+  Saturday = 'Saturday',
+}
+export const LabelText = {
+  your_day: 'Your day',
+  view_all_requests: 'View all requests',
+  view_all_notifications: 'View all notifications',
+  booking_today: 'booking(s) today',
+  today: 'Today',
+  Check_in: 'Check_in',
+  Checkin: 'Check in',
+  Check_out: 'Check_out',
+  Your_team_today: 'Your_team_today',
+  YourTeamToday: 'Your team, today',
+  Working_from: 'Working_from',
+  WorkingFrom: 'Working from',
+  No_records: 'No_records',
+  NoRecords: 'No Records',
+  Checkout: 'Check out',
+  Common_Values: 'Common_Values',
+  Working_remotely: 'Working_remotely',
+  WorkingRemotely: 'Working remotely',
+  Change_your_schedule: 'Change_your_schedule',
+  ChangeYourSchedule: 'Change your schedule',
+  Edityourbooking: ' Edit your booking',
+  Edit_your_booking: ' Edit your booking',
+  DeleteEvent: 'Delete event',
+  Remove_user: 'Remove user',
+  allort: 'Are you sure you want to permanently delete this booking?',
+  Out_of_office: 'Out_of_office',
+  Outofoffice: 'Out of office',
+  In_office: 'In_office',
+  InOffice: 'In office',
+  Unknown: 'Unknown',
+  remote: 'Remote',
+  dashboard: 'Dashboard',
+  locate: 'Locate',
+  pending: 'Pending',
+  requested_on: 'Requested on'
+};
+
+export const UserProfileList = {
+  common_Values: 'Common_Values',
+  return_to_team: 'Return_to_team',
+  return: 'Return',
+  team: 'Team',
+  view_team: 'View_team',
+  viewTeam: 'View team',
+  about: 'About',
+  location: 'Location',
+  default_working_hours: 'Default_working_hours',
+  defaultWorkingHours: 'Default working hours',
+  start: 'Start',
+  end: 'End',
+  contact: 'Contact',
+  teams: 'Teams',
+  subtract: 'subtract',
+  add: 'add',
+};
+
+export enum BOOKING_STATUS {
+  BOOKED = 1,
+  REQUESTED = 4,
+  HR_LEAVE_APPROVED = 8,
+}

@@ -1,0 +1,363 @@
+.return-team {
+    margin-bottom: 45px;
+    @extend %display-flex;
+    @include respond-below(custom767) {
+        margin-bottom: 25px;
+    }
+    a {
+        display: $__inline__flex;
+        font-size: $__font__size__18;
+        font-weight: 900;
+        color: $__primarycolor;
+        @include respond-below(custom1199) {
+            font-size: $__font__size__16; 
+        }
+        @include respond-below(custom767) {
+            font-size: $__font__size__14;
+        }
+        img {
+            margin-right: 20px;
+            @include respond-below(custom767) {
+                width: 8px;
+            }
+        }
+        &:hover {
+            color: $__primarycolorhover;
+        }
+    }
+}
+.profile-img-group {
+    @extend %align-items-center;
+    @extend %display-flex;
+    margin-bottom: 15px;
+    @include respond-below(custom767) {
+        flex-wrap: wrap;
+    }
+    .big-view-img {
+        width: 115px;
+        height: 115px;
+        margin-right: 25px;
+        @include respond-below(custom1199) {
+            width: 90px;
+            height: 90px;
+        }
+        @include respond-below(custom991) {
+            width: 90px;
+            height: 90px;
+        }
+        @include respond-below(custom767) {
+            width: 60px;
+            height: 60px;
+        }
+        img {
+            border-radius: 50%;
+        }
+    }
+    .profiles-names {
+        h4 {
+            @extend %align-items-center;
+            @extend %display-flex;
+            margin-bottom: 5px;
+            @include respond-below(custom767) {
+                flex-wrap: wrap;
+            }
+            a {
+                font-size: $__font__size__24;
+                color: $__black;
+                @include respond-below(custom1199) {
+                    font-size: $__font__size__20;
+                }
+                @include respond-below(custom767) {
+                    font-size: $__font__size__18;
+                }
+            }
+            >span {
+                font-size: $__font__size__18;
+                padding-left: 26px;
+                color: $__black;
+                @extend %display-flex;
+                @include respond-below(custom1199) {
+                    font-size: $__font__size__15;
+                    padding-left: 10px;
+                }
+                @include respond-below(custom767) {
+                    font-size: $__font__size__14;
+                    padding-left: 10px;
+                }
+                img {
+                    margin-right: 8px;
+                }
+                &.edit-profile-name {
+                    a {
+                        color: $__primarycolor;
+                        font-weight: 500;
+                        font-size: $__font__size__18;
+                        &:hover {
+                            color: $__primarycolorhover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.check-in-profile {
+    @extend %align-items-center;
+    @extend %display-flex;
+    color: $__black;
+    padding-left: 10px;
+    &.check-in-active {
+        span {
+            width: 12px;
+            height: 12px;
+        }
+        h5 {
+            font-size: $__font__size__18;
+            font-weight: 400;
+            @include respond-below(custom767) {
+                font-size: $__font__size__15;
+            }
+        }
+    }
+    i {
+        color: $__greenlight;
+        border: $__border__1;
+        font-size: 10px;
+        border-radius: 50px;
+        margin-right: 10px;
+    }
+}
+.profile-about-grp {
+    &.set-profil-head {
+        h3 {
+            font-weight: 500;
+            font-size: $__font__size__18;
+        }
+    }
+    h3 {
+        font-size: $__font__size__24;
+        color: $__black;
+        margin-bottom: 2px;
+        @include respond-below(custom1199) {
+            font-size: $__font__size__20;
+        }
+        @include respond-below(custom767) {
+            font-size: $__font__size__20;
+        }
+    }
+    .office-teams {
+        margin-bottom: 40px;
+        @include respond-below(custom767) {
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 0;
+            font-size: $__font__size__14;
+            color: $__black;
+            font-weight: 500;
+        }
+        .office-views-team {
+            @extend %display-flex;
+            @extend %align-items-center;
+            background: $__light__white;
+            border: 1px solid $__light__vampires;
+            border-radius: 10px;
+            min-height: 35px;
+            flex-wrap: wrap;
+            @include margin-padding (0 0 5px,2px 15px);
+            &.input-place-grp {
+                padding: 0;
+                input {
+                    width: $__full__width;
+                    font-size: $__font__size__18;
+                    font-weight: $__medium;
+                    height: 35px;
+                    color: $__black;
+                    text-align: left;
+                    padding: 0px 15px;
+                }
+                .place-input {
+                    font-weight: 400;
+                }
+            }
+            @include respond-below(custom767) {
+                @include margin-padding (null,5px 10px);
+            }
+            &.view-coloring {
+                h4 {
+                    color: $__blackgray;
+                }
+            }
+            h4 {
+                font-size: $__font__size__18;
+                color: $__black;
+                @include respond-below(custom1199) {
+                    font-size: $__font__size__14;
+                }
+                @include respond-below(custom767) {
+                    font-size: $__font__size__14;
+                }
+                span {
+                    font-size: $__font__size__14;
+                    color: $__blackgray;
+                    padding-left: 15px;
+                }
+            }
+            a {
+                font-size: $__font__size__18;
+                font-weight: 500;
+                color: $__primarycolor;
+                margin-left: auto;
+                @extend %display-flex;
+                @include respond-below(custom1199) {
+                    font-size: $__font__size__14;
+                }
+                @include respond-below(custom767) {
+                    font-size: $__font__size__14;
+                }
+                &:hover {
+                    color: $__primarycolorhover;
+                }
+                img {
+                    @include respond-below(custom767) {
+                        width: 15px;
+                    }
+                }
+            }
+            input {
+                font-size: $__font__size__18;
+                color: $__primarycolor;
+                font-weight: 900;
+                border: 0;
+                background: $__transparent;
+                text-align: $__right;
+                width: 70px;
+                margin-left: auto;
+                @include respond-below(custom1199) {
+                    font-size: $__font__size__16;
+                }
+                @include respond-below(custom767) {
+                    font-size: $__font__size__14;
+                }
+            }
+            .timepicker {
+                td {
+                  a {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    &:hover {
+                      border: 0;
+                    }
+                    &:focus {
+                        border: 0;
+                    }
+                  }
+                }
+            }
+        }
+    }
+    .about-view {
+        margin-bottom: 40px;
+        @include respond-below(custom767) {
+            margin-bottom: 20px;
+        }
+        &.edit-about {
+            h3 {
+                @extend %display-flex;
+                @extend %align-items-center;
+                a {
+                    margin-left: auto;
+                    font-size: $__font__size__18;
+                    font-weight: 500;
+                }
+            }
+        }
+        p {
+            font-size: $__font__size__18;
+            color: $__black;
+            @include respond-below(custom1199) {
+                font-size: $__font__size__16;
+            }
+            @include respond-below(custom767) {
+                font-size: $__font__size__15;
+            }
+        }
+    }
+}
+.empty-space {
+    width: 100%;
+    &.card {
+        margin-bottom: 20px;
+    }
+    @include respond-below(custom991) {
+        display: none;
+    }
+    @include respond-below(custom767) {
+        display: none;
+    }
+}
+.profile-list-out {
+    &.card {
+        padding: 15px 30px;
+        padding-bottom: 10px;
+    }
+}
+.list-out-profile {
+    h3 {
+        font-size: $__font__size__24;
+        color: $__blackgray;
+        @include respond-below(custom1199) {
+            font-size: $__font__size__20;
+        }
+        @include respond-below(custom767) {
+            font-size: $__font__size__20;
+        }
+    }
+    ul {
+        @extend %display-flex;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        li {
+            border: 1px solid $__light__vampires;
+            border-radius: 10px;
+            padding: 5px;
+            width: 125px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            @include respond-below(custom1199) {
+                width: 23%;
+            }
+            @include respond-below(custom767) {
+                width: 46%;
+                margin: 4px;
+            }
+            .list-proile-img {
+                width: 52px;
+                height: 52px;
+                margin: auto;
+                position: $__relative;
+                img {
+                    border-radius: 50%;
+                }
+            }
+        }
+        .profile-title {
+            @extend %display-flex;
+            @extend %align-items-center;
+            h5 {
+                a {
+                    font-size: $__font__size__18;
+                    color: $__black;
+                    @include respond-below(custom767) {
+                        font-size: $__font__size__16;
+                    }
+                }
+            }
+            .icon-profile-lists {
+                @extend %display-flex;
+                min-width: 50px;
+            }
+        }
+    }
+}

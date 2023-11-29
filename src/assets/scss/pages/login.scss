@@ -1,0 +1,119 @@
+.login-body {
+    @extend %align-items-center;
+    @extend %display-flex;
+    height: 100%;
+    min-height: 100vh;
+    background: $__light__white;
+    .login-wrapper {
+        width: 100%;
+        height: 100%;
+        .loginbox {
+            background: $__white;
+            box-shadow: $__shadow__1;
+            border-radius: 10px;
+            margin: auto;
+            max-width: 520px;
+            width: 100%;
+            @include margin-padding(null,30px);
+            .login-logo {
+                @include margin-padding(0 0 20px,null);
+                img {
+                    @include respond-below(custom767) {
+                        width: 60px;
+                    }
+                }
+            }
+            .form-group {
+                position: $__relative;
+            }
+            .input-group {
+                &.addres-group {
+                    margin-bottom: 25px;
+                }
+            }
+            .form-control {
+                border: 0;
+                border-bottom: 1px solid $__gray__line;
+                border-radius: 0px;
+                height: 35px;
+                font-size: $__font__size__14;
+                position: $__relative;
+                color: $__gray_light;
+                font-weight: 500;
+                @include margin-padding(null,0);
+                &::placeholder {
+                    color: $__gray_light;
+                }
+                &:focus {
+                    border-bottom: 1px solid $__primarycolor;
+                }
+                &:hover {
+                    border-bottom: 1px solid $__primarycolor;
+                }
+            }
+            .btn-primary {
+                width: 100%;
+                background: $__primarycolor;
+                border: 1px solid $__primarycolor;
+                font-size: $__font__size__18;
+                border-radius: 10px;
+                padding: 3px 10px;
+                font-weight: 900;
+                @include respond-below(custom767) {
+                    font-size: $__font__size__14;
+                }
+                &:hover {
+                    background: $__primarycolorhover;
+                    border: 1px solid $__primarycolorhover;
+                }
+            }
+            .forgotpass {
+                a {
+                    color: $__gray_light;
+                    font-size: $__font__size__14;
+                    font-weight: 500;
+                    &:hover {
+                        color: $__black;
+                    }
+                }
+            }
+            .sign-with {
+                @include margin-padding(35px 0px, null);
+                position: relative;
+                @include respond-below(custom767) {
+                    @include margin-padding(20px 0px, null);
+                }
+                p {
+                    color: $__gray_light;
+                    display: inline-block;
+                    background: $__white;
+                    position: $__relative;
+                    font-size: $__font__size__12;
+                    @include margin-padding(null, 0px 20px);
+                }
+                &:before {
+                    content: "";
+                    position: $__absolute;
+                    background: $__gray__line;
+                    width: 100%;
+                    height: 1px;
+                    left: 0;
+                    top: 10px;
+                }
+            }
+            .login-footer {
+                @extend %display-flex;
+                @extend %justify-content-spacearound;
+                a {
+                    @extend %display-flex;
+                    &:first-child {
+                        padding-left: 30px;
+                    }
+                    &:last-child {
+                        padding-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

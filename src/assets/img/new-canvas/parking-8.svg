@@ -1,0 +1,74 @@
+<svg width="75" height="60" viewBox="0 0 75 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2077_57629)">
+<rect width="14.0931" height="29.7521" transform="translate(45)" fill="#FAFAFA"/>
+<rect x="45.5" y="0.5" width="13.0931" height="28.7521" rx="1.5" fill="#EEEEEE" stroke="#101A22"/>
+</g>
+<g clip-path="url(#clip1_2077_57629)">
+<rect width="14.0931" height="29.7521" transform="translate(45 30)" fill="#FAFAFA"/>
+<rect x="45.5" y="30.5" width="13.0931" height="28.7521" rx="1.5" fill="#EEEEEE" stroke="#101A22"/>
+</g>
+<g clip-path="url(#clip2_2077_57629)">
+<rect width="14.0931" height="29.7521" transform="translate(60.0933)" fill="#FAFAFA"/>
+<rect x="60.5933" y="0.5" width="13.0931" height="28.7521" rx="1.5" fill="#EEEEEE" stroke="#101A22"/>
+</g>
+<g clip-path="url(#clip3_2077_57629)">
+<rect width="14.0931" height="29.7521" transform="translate(60.0933 30)" fill="#FAFAFA"/>
+<rect x="60.5933" y="30.5" width="13.0931" height="28.7521" rx="1.5" fill="#EEEEEE" stroke="#101A22"/>
+</g>
+<g clip-path="url(#clip4_2077_57629)">
+<rect width="14.0931" height="29.7521" fill="#FAFAFA"/>
+<rect x="0.5" y="0.5" width="13.0931" height="28.7521" rx="1.5" fill="#EEEEEE" stroke="#101A22"/>
+</g>
+<g clip-path="url(#clip5_2077_57629)">
+<rect width="14.0931" height="29.7521" transform="translate(0 30)" fill="#FAFAFA"/>
+<rect x="0.5" y="30.5" width="13.0931" height="28.7521" rx="1.5" fill="#EEEEEE" stroke="#101A22"/>
+</g>
+<g clip-path="url(#clip6_2077_57629)">
+<rect width="14.0931" height="29.7521" transform="translate(15.0933)" fill="#FAFAFA"/>
+<rect x="15.5933" y="0.5" width="13.0931" height="28.7521" rx="1.5" fill="#EEEEEE" stroke="#101A22"/>
+</g>
+<g clip-path="url(#clip7_2077_57629)">
+<rect width="14.0931" height="29.7521" transform="translate(30.1865)" fill="#FAFAFA"/>
+<rect x="30.6865" y="0.5" width="13.0931" height="28.7521" rx="1.5" fill="#EEEEEE" stroke="#101A22"/>
+</g>
+<g clip-path="url(#clip8_2077_57629)">
+<rect width="14.0931" height="29.7521" transform="translate(15.0933 30)" fill="#FAFAFA"/>
+<rect x="15.5933" y="30.5" width="13.0931" height="28.7521" rx="1.5" fill="#EEEEEE" stroke="#101A22"/>
+</g>
+<g clip-path="url(#clip9_2077_57629)">
+<rect width="14.0931" height="29.7521" transform="translate(30.1865 30)" fill="#FAFAFA"/>
+<rect x="30.6865" y="30.5" width="13.0931" height="28.7521" rx="1.5" fill="#EEEEEE" stroke="#101A22"/>
+</g>
+<defs>
+<clipPath id="clip0_2077_57629">
+<rect width="14.0931" height="29.7521" fill="white" transform="translate(45)"/>
+</clipPath>
+<clipPath id="clip1_2077_57629">
+<rect width="14.0931" height="29.7521" fill="white" transform="translate(45 30)"/>
+</clipPath>
+<clipPath id="clip2_2077_57629">
+<rect width="14.0931" height="29.7521" fill="white" transform="translate(60.0933)"/>
+</clipPath>
+<clipPath id="clip3_2077_57629">
+<rect width="14.0931" height="29.7521" fill="white" transform="translate(60.0933 30)"/>
+</clipPath>
+<clipPath id="clip4_2077_57629">
+<rect width="14.0931" height="29.7521" fill="white"/>
+</clipPath>
+<clipPath id="clip5_2077_57629">
+<rect width="14.0931" height="29.7521" fill="white" transform="translate(0 30)"/>
+</clipPath>
+<clipPath id="clip6_2077_57629">
+<rect width="14.0931" height="29.7521" fill="white" transform="translate(15.0933)"/>
+</clipPath>
+<clipPath id="clip7_2077_57629">
+<rect width="14.0931" height="29.7521" fill="white" transform="translate(30.1865)"/>
+</clipPath>
+<clipPath id="clip8_2077_57629">
+<rect width="14.0931" height="29.7521" fill="white" transform="translate(15.0933 30)"/>
+</clipPath>
+<clipPath id="clip9_2077_57629">
+<rect width="14.0931" height="29.7521" fill="white" transform="translate(30.1865 30)"/>
+</clipPath>
+</defs>
+</svg>

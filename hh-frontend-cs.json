@@ -1,0 +1,18 @@
+{
+  "family": "hh-frontend-cs",
+  "containerDefinitions": [
+    {
+      "image": "014196892856.dkr.ecr.eu-west-1.amazonaws.com/hhplus-cs-app:%BUILD_NUMBER%",
+      "name": "hh-frontend-cs",
+      "cpu": 1024,
+      "memory": 512,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "hostPort": 0
+        }
+      ]
+    }
+  ]
+}

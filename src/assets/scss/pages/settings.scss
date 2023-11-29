@@ -1,0 +1,240 @@
+.card-new{
+  @include margin-padding(null, 0);
+    .settings-path{
+        max-width:500px;
+        @include respond-below(custom991) {
+            max-width:$__full__width;
+        }
+    }
+    .card-header{
+      @include margin-padding(null, 15px);
+        box-shadow: 0px 3px 6px 0px rgba(220, 220, 220, 0.8);
+        h3{
+            font-size: 26px;
+            color:$__black;
+            font-weight: 400;
+        }
+    }
+    .card-body{
+      @include margin-padding(null, 30px);
+        @include respond-below(custom991) {
+          @include margin-padding(null, 15px);
+        } 
+        .company-logo{
+            margin-bottom:20px;
+            h6{
+                font-size: 14px;
+                font-weight: 500;
+                color: $__black;
+                margin-bottom: 10px;
+            }
+            h5{
+                font-size: 12px;
+                font-weight: 500;
+                color: $__black;
+            }
+            .companylogo-upload{
+                position: $__relative;
+                margin-bottom: 10px;
+                cursor: $__pointer;
+                input{
+                    opacity: 0;
+                    z-index: 9;
+                    width:120px;
+                    position: $__relative;
+                    cursor: $__pointer;
+                }
+                a{
+                    position: absolute;
+                    top:0;
+                    font-size: 18px;
+                    font-weight: 900;
+                    left: 0;
+                    &:hover{
+                      text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .company-img{
+            @include respond-below(custom991) {
+                margin-bottom: 15px;
+            }
+        }
+    } 
+    .maxnumberset{
+        margin-bottom: 20px;
+        @extend %display-flex;
+        @extend %align-items-center;
+        justify-content: center;
+        .maxnumbersetlabel{
+          padding-right:25px;
+        }
+        h4{
+            font-size: 14px;
+            font-weight: 500;
+            color: $__black;
+            margin-bottom: 5px;
+        }
+        h5{
+            font-size: 14px;
+            font-weight: 400;
+            color: $__black;
+            margin-bottom: 10px;
+        }
+        input{
+            max-width:107px;
+            height:40px;
+            font-size: 18px;
+            color: $__primarycolor;
+            font-weight: 900;
+            background: $__white;
+            border:1px solid $__cloud__gray;
+            @include rounded(10px);
+            @include margin-padding(null, 0 10px);
+            &::-webkit-inner-spin-button, 
+            &::-webkit-outer-spin-button {
+              opacity: 1;
+            }
+        }
+    }
+    .form-settings{
+        margin-bottom:30px;
+        h4{
+            font-size: 14px;
+            font-weight: 500;
+            color: $__black;
+            margin-bottom: 5px;
+        }
+        .settings-group {
+            background: $__white;
+            margin-bottom: 10px;
+            @extend %display-flex; 
+            @extend %align-items-center;
+            @extend %justify-content-between;
+            border: 1px solid $__cloud__gray;
+            @include rounded(10px);
+            @include margin-padding(null, 7.5px 15px);
+            h5 {
+                font-size: 18px;
+                color: $__blackgray;
+                font-weight: 400;
+                @include respond-below(custom991) {
+                  font-size: 14px;
+                } 
+            }
+            input{
+                font-size: 18px;
+                color: $__primarycolor;
+                font-weight: 900;
+                border:0;
+                background: $__transparent;
+                text-align: $__right;
+                @include respond-below(custom991) {
+                  font-size: 14px;
+                }
+            }
+            h6 {
+                font-size: 18px;
+                color: $__primarycolor;
+                font-weight: 900;
+            }
+            .checkbox-set{
+                .check {
+                    display: $__block;
+                    position: $__relative;
+                    padding-left: 20px;
+                    margin-bottom: 12px;
+                    cursor: $__pointer;
+                    font-size: 22px;
+                    user-select: $__none;
+                  }
+                  .check input {
+                    position: $__absolute;
+                    opacity: 0;
+                    cursor: $__pointer;
+                    height: 0;
+                    width: 0;
+                  }
+                  .checkmark {
+                    height: 25px;
+                    width: 25px;
+                    background-color: $__cloud__gray;
+                    border:1px solid  $__primarycolor;
+                    @include rounded(5px);
+                    @include position($__absolute,-5px,null,null,0);
+                  }
+                  .check:hover input ~ .checkmark {
+                    background-color: $__transparent;
+                  }
+                  .check input:checked ~ .checkmark {
+                    background-color: $__primarycolor;
+                  }
+                  .checkmark:after {
+                    content: "";
+                    position: $__absolute;
+                    display: $__none;
+                  }
+                  .check input:checked ~ .checkmark:after {
+                    display: $__block;
+                  }
+                  .check .checkmark:after {
+                    left: 7px;
+                    top: 2px;
+                    width: 8px;
+                    height: 14px;
+                    border: solid $__white;
+                    border-width: 0 3px 3px 0;
+                    @include transform(rotate(45deg));
+                  }
+            }
+            
+        }
+        
+    }
+}
+.toogleclass{
+  .switch {
+      position: $__relative;
+      display: $__inline__block;
+      width: 58px;
+      height: 30px;
+    }
+    .switch input { 
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .slider {
+      cursor: $__pointer;
+      background-color: $__goose-gray;
+      @include transition(all 0.4s ease);
+      @include position($__absolute,0,0,0 ,0);
+    }
+    .slider:before {
+      content: "";
+      height: 24px;
+      width: 24px;
+      background-color: $__white;
+      @include transition(all 0.4s ease);
+      @include position($__absolute,null,null,3px,4px);
+    }
+    input:checked + .slider {
+      background-color: $__primarycolor;
+    }
+    input:focus + .slider {
+      box-shadow: 0 0 1px $__primarycolor;
+    }
+    input:checked + .slider:before {
+      @include transform(translateX(26px));
+    }
+    .slider.round {
+      @include rounded(34px);
+    }
+    .slider.round:before {
+      @include rounded(50%);
+    }
+}
+.css-2613qy-menu *{
+	cursor:pointer !important;
+}

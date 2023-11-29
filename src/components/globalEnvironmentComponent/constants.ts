@@ -1,0 +1,16 @@
+export const GlobalEnvironmentLabel = {
+  environmentSetting: 'Global Environment Settings',
+  PoweredBy: 'Powered by hyperlink',
+  Save: 'Save',
+  Cancel: 'Cancel',
+  Upload_PDF: 'Upload as PDF',
+  Upload_file: 'Upload data file',
+  View_Pdf: 'View au T&C Pdf',
+  No_file_uploaded: 'No file uploaded',
+  View_uk_Pdf: 'View uk T&C Pdf',
+  AU: 'AU T',
+  UK_T: 'UK/EU T',
+  US_T: 'US_T',
+  View_us_Pdf: 'View us T&C Pdf',
+  Cs: 'Cs',
+};

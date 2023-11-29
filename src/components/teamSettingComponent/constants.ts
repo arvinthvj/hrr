@@ -1,0 +1,51 @@
+export const TeamSettingLabelText={
+    Filter:"Filter",
+    Team_Management:"Team_Management",
+    Team_manage:"Team settings",
+    All_teams:"All_teams",
+    All:"All Teams",
+    Active:"Active",
+    Remove_team:"Remove team",
+    Teams:"Teams",
+    Active_only:"Active only",
+    Managers:"Manager(s)",
+    Team_Managers:"Team Manager(s)",
+    Assigned_workspaces:"Assigned workspaces",
+    Assigned_rooms:"Assigned rooms",
+    Assigned_parking:"Assigned parking",
+    Add_users:"Add_users",
+    AddUsers:"Add users",
+    Find:"Find",
+    Save_changes:"Save changes",
+    Save:"Save",
+    Cancel:"Cancel",
+    Members:"Members",
+    Today:"Today",
+    TEAM:"team"
+
+}
+export const TeamManagerLabelText={
+    View_profile:"View_profile",
+    ViewProfile:"View profile",
+    Team:"Team",
+    No_records:"No_records",
+    NoRecords:"No Records",
+    Common_Values:"Common_Values",
+    Working_from:"Working_from",
+    WorkingFrom:"Working from",
+    Dashboard:"Dashboard",
+    Find:"Find",
+    Sort_by:"Sort_by",
+    Name:"Name",
+    Sortby:"Sort by",
+    Remove:"Remove",
+    Status:"Status",
+    Workspace:"Workspace",
+    Team_Management:"Team_Management",
+    check_in:"Check_in",
+    checkIn:"Check in",
+    Check_out:"Check_out",
+    Checkout:"Check out"
+
+
+}

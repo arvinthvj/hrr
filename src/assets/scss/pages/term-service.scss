@@ -1,0 +1,106 @@
+.term-service-grp {
+    height: 100%;
+    min-height: 100vh;
+    background: $__light__white;
+    @include respond-below(custom1399) {
+        @include margin-padding(null,40px 0px);
+    }
+    .terms-wrapper {
+        width: 100%;
+        height: 100%;
+        .term-service {
+            border-radius: 10px;
+            margin: auto;
+            max-width: 790px;
+            width: 100%;
+            @include margin-padding(null,30px);
+            .card-header {
+                padding: 20px 35px;
+            }
+            &.card {
+                box-shadow: $__shadow__3;
+                border: 0;
+                padding: 0;
+            }
+            h3 {
+                font-size: $__font__size__26;
+                color: $__black;
+                font-weight: 400;
+                margin-bottom: 10px;
+            }
+            span {
+                font-size: $__font__size__14;
+                color: $__black;
+                font-weight: 400;
+            }
+            .card-body {
+                @include margin-padding(null, 10px 20px 10px 35px);
+                box-shadow: $__shadow__7;
+                p {
+                    font-size: $__font__size__18;
+                    font-weight: 400;
+                    color: $__black;
+                    height: 465px;
+                    overflow: auto;
+                    padding-right: 30px;
+                    @include respond-below(custom991) {
+                        font-size: $__font__size__16;
+                    }
+                    @include respond-below(custom767) {
+                        font-size: $__font__size__15;
+                        height: 300px;
+                    }
+                }
+                ::-webkit-scrollbar {
+                    width: 4px;
+                    height: 5px;
+                    border-radius: 50px !important;
+                }
+                ::-webkit-scrollbar-track {
+                    background: $__light__vampire;
+                }
+                ::-webkit-scrollbar-thumb {
+                    background: $__gray_light;
+                    &:hover {
+                        background: $__gray_light;
+                    }
+                }
+            }
+            .card-footer {
+                @include margin-padding(null,27px 20px 20px);
+                background: $__white;
+                border: 0;
+                .accept-btn {
+                    @include margin-padding(null,0 0 32px);
+                    .btn-primary {
+                        background: $__primarycolor;
+                        border: 1px solid $__primarycolor;
+                        font-size: $__font__size__18;
+                        min-width: 330px;
+                        border-radius: 10px;
+                        font-weight: 900;
+                        @include margin-padding(null,3px 15px);
+                        @include respond-below(custom767) {
+                            min-width: 100%;
+                            font-size: $__font__size__16;
+                        }
+                        &:hover {
+                            background: $__primarycolorhover;
+                            border: 1px solid $__primarycolorhover;
+                        }
+                    }
+                }
+                .decline-terms {
+                    a {
+                        font-size: $__font__size__14;
+                        color: $__gray_light;
+                        font-weight: 500;
+                        &:hover {
+                            color: $__black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

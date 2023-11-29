@@ -1,0 +1,88 @@
+export const LocateLabelText = {
+  Filter: 'Filter',
+  Search: 'Search',
+  Workspaces: 'Workspaces',
+  Rooms: 'Rooms',
+  Parking: 'Parking',
+  Cancel: 'Cancel',
+  Apply: 'Apply',
+  Description: 'Description',
+  Locate: 'Locate',
+  Location: 'Location',
+  Team: 'Team',
+  Capacity: 'Capacity',
+  Today: 'Today',
+  Start: 'Start',
+  Bookedbyme: 'Booked by me',
+  Booked_by_me: 'Booked_by_me',
+  Booked: 'Booked',
+  Available: 'Available',
+  Unavailable: 'Unavailable',
+  By_request: 'By_request',
+  Byrequest: 'Byrequest',
+  Find: 'Find',
+  End: 'End',
+  Floorplan: 'Floorplan',
+  OnThisFloor: 'On this floor',
+  YourTeams: 'Your team(s)',
+  EmergencyResponders: 'Emergency responders',
+  AllTeams: 'All teams',
+  CheckedIn: 'Checked in',
+};
+export const DeskLabelText = {
+  Locate: 'Locate',
+  Back: 'Back',
+  Data: 'Date',
+  Today: 'Today',
+  Start: 'Start',
+  Cancel: 'Cancel',
+  Next: 'Next',
+  Book: 'Book',
+  Savechanges: 'Save changes',
+  Save_changes: 'Save_changes',
+  Delete_booking: 'Delete_booking',
+  Deletebooking: 'Deletebooking',
+  Description: 'Description',
+  Capacity: 'Capacity',
+  Participants: 'Internal Participants (optional)',
+  Teams: 'Teams',
+  Google: 'Google',
+  Zoom: 'Zoom',
+  Return_to_team: 'Return_to_team',
+  ReturntoTeam: 'ReturntoTeam',
+  Dashboard: 'Dashboard',
+  View_team: 'View_team',
+  Viewteam: 'View team',
+  About: 'About',
+  Location: 'Location',
+  Default_working_hours: 'Default_working_hours',
+  Defaultworkinghours: 'Default working hours',
+  End: 'End',
+  Contact: 'Contact',
+  Team: 'Team',
+  Comments: 'Comments (optional)',
+};
+
+export const AssetTypes = {
+  workspace: 'work',
+  room: 'room',
+  parking: 'parking',
+};
+
+export const TeamTypes = {
+  primary: 'primary',
+  secondary: 'secondary',
+  other: 'other',
+  teams: 'teams',
+  emergencyResponders: 'health_safety',
+};
+
+export const StartTime = '00:01';
+export const EndTime = '23:59';
+
+export const AssetStatusIds = {
+  available: 1,
+  byRequest: 2,
+  unAvailable: 3,
+  bookedByMe: 4,
+};

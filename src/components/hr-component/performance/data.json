@@ -1,0 +1,30 @@
+{
+    "goaldata": [
+      { "id":1,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      { "id":2,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      {"id":3,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      {"id":4,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      {"id":5,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      {"id":6,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      {"id":7,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      { "id":1,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      { "id":2,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      {"id":3,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      {"id":4,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      {"id":5,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      {"id":6,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      {"id":7,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      { "id":1,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      { "id":2,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      {"id":3,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      {"id":4,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      {"id":5,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      {"id":6,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"},
+      {"id":7,"title": "Sales Leads", "category": "Productivity", "assigned_to": "Barry Allen", "status":"On track","days_to_go":1,"target":"27/06/2023"}
+      
+    ],
+    "totalPages":"2",
+    "countPerPage":5
+   
+      
+  }
